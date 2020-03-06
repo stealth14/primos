@@ -27,7 +27,7 @@ function isPrime(n)
 }
 
 
-//retorna string con secuencia de primos
+//construye un string con la secuencia de primos
 function generateSequence()
 {
 
@@ -54,7 +54,7 @@ function showSequence()
     clearLine()
 }
 
-
+//limpia el string
 function clearLine()
 {
     line=" "
