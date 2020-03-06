@@ -13,10 +13,33 @@
   {
     display: flex;
 
-    width: 100%;
+    width: 75%;
     height: 300px;
-    
+    margin: auto;
+
+    background-color:#a8e6cf;
     flex-direction: column;
-    align-content: center;
     
+  }
+
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1;
+  }
+
+  html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+
+  .secondary-color
+  {
+background-color: #d7fffd;
+
   }

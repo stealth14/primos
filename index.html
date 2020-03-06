@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="styles.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="center-align">
 
     <div>
-        <h2 class="header">Serie de  primos</h2>
+        <h2 class="header ">SECUENCIA DE PRIMOS</h2>
 
-        <div class="card horizontal">
+        <div class="card horizontal secondary-color">
           <div class="card-image">
-            <img src="https://lorempixel.com/100/190/nature/6">
+            <img src="assets/85.jpeg">
           </div>
 
           <div class="card-stacked">
@@ -25,9 +28,8 @@
             <div class="card-content">
               <!-- display -->
 
-              <div class="input-field">
-                <i class="material-icons prefix">keyboard_arrow_right</i>
-                <input id="display" class="validate">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <input disabled id="display" class="validate">
               </div>
 
               <!-- display -->
@@ -38,26 +40,20 @@
               <div class="input-field">
                 <i class="material-icons prefix">keyboard_arrow_right</i>
                 <input id="input" type="number" class="validate">
-                <label for="input">Limite</label>
-                <span class="helper-text" data-error="Ingrese un numero" data-success="Correcto">Ultimo valor de la serie</span>
+                <label for="input">Ultimo valor</label>
+                <span class="helper-text" data-error="Ingrese un numero" data-success="Correcto">Inserte ultimo valor de la serie</span>
               </div>
               <!-- input -->
             </div>
 
             <div class="card-action">
-                <button onclick="showSequence()" id="BtnMostrar" class="waves-effect waves-light btn">Mostrar serie</button>
+                <button onclick="showSequence()" id="BtnMostrar" class="waves-effect waves-light  btn">Mostrar serie</button>
             </div>
 
           </div>
         </div>
     </div>
 
-
-      <ul class="list-inline">
-        <li class="waves-effect waves-light btn">Item 1</li>
-        <li class="waves-effect waves-light btn">Item 2</li>
-        <li class="waves-effect waves-light btn">Item 3</li>
-      </ul>
       
 
 
